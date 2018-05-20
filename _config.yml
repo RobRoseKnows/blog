@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+title: Rob Rose Blog
+description: "I press buttons on my computer and get paid to do it. (Sometimes)"
+logo: "./assets/img/slothme.gif"
+show_downloads: false
+google_analytics: UA-66371735-3
