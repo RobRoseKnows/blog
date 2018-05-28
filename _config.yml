@@ -1,6 +1,6 @@
 remote_theme: rohanchandra/type-theme
 url: "https://blog.robrose.io/"
-theme:
+theme_settings:
   title: Rob Rose Blog
   avatar: assets/img/slothme.png
   description: "I press buttons on my computer and get paid to do it. (Sometimes)"
@@ -16,7 +16,3 @@ theme:
   google_analytics: UA-66371735-3
   katex: true
   search: true
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
