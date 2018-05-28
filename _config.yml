@@ -1,8 +1,22 @@
 remote_theme: rohanchandra/type-theme
-title: Rob Rose Blog
-description: "I press buttons on my computer and get paid to do it. (Sometimes)"
-show_downloads: false
-google_analytics: UA-66371735-3
+url: "https://blog.robrose.io/"
+theme:
+  title: Rob Rose Blog
+  avatar: assets/img/slothme.png
+  description: "I press buttons on my computer and get paid to do it. (Sometimes)"
+  show_downloads: false
+
+  # Icons
+  rss: true
+  github: "RobRoseKnows"
+  linkedin: "https://linkedin.com/in/robertpaulrose"
+  twitter: "RobRoseKnows"
+
+  # Scripts
+  google_analytics: UA-66371735-3
+  katex: true
+  search: true
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
