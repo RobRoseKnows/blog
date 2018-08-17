@@ -1,30 +1,37 @@
-remote_theme: rohanchandra/type-theme
+lang: en-US
+title: Rob Rose Blog
+description: "I press buttons on my computer and get paid to do it. (Sometimes)"
 url: "https://blog.robrose.io/"
-theme_settings:
-  title: Rob Rose Blog
-  avatar: assets/img/slothme.png
-  description: "I press buttons on my computer and get paid to do it. (Sometimes)"
-  show_downloads: false
 
-  # Icons
-  rss: true
-  github: "RobRoseKnows"
-  linkedin: "https://linkedin.com/in/robertpaulrose"
-  twitter: "RobRoseKnows"
+author:
+  name: Rob Rose
+  twitter: RobRoseKnows
+  picture: /assets/img/slothme.png
+twitter_username: RobRoseKnows
+github_username: RobRoseKnows
+logo: /assets/img/slothme.gif
+search: false
 
-  # Scripts
-  google_analytics: UA-66371735-3
-  katex: true
-  search: true
+markdown: kramdown
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
 twitter:
   username: RobRoseKnows
   card: summary
+
 social:
   name: Rob Rose
   links:
     - https://twitter.com/RobRoseKnows
     - https://linkedin.com/in/robertpaulrose
     - https://github.com/RobRoseKnows
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+
+paginate: 10
+paginate_path: /page:num/
